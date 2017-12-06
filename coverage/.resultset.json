@@ -1,0 +1,38 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/home/nghiadk/workshop/user_login/app/models/user.rb": [
+        1,
+        1,
+        null,
+        null
+      ],
+      "/home/nghiadk/workshop/user_login/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/home/nghiadk/workshop/user_login/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/home/nghiadk/workshop/user_login/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/home/nghiadk/workshop/user_login/app/controllers/pages_controller.rb": [
+        1,
+        1,
+        null
+      ]
+    },
+    "timestamp": 1512631777
+  }
+}
