@@ -7,4 +7,9 @@ RSpec.describe User, type: :model do
   let(:rememberable) {Class.new {include User}}
   let(:trackable) {Class.new {include User}}
   let(:validatable) {Class.new {include User}}
+
+  context "test model" do
+    let!(:user){FactoryGirl.create :user, email: "nghiadk@gmail.com"}
+    it{expect(User.find_user(user.id)).to eq(user)}
+  end
 end
