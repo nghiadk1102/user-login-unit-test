@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/home/nghiadk/workshop/user-login-unit-test/app/models/user.rb": [
+      "/home/nguyen.ha.phan/Documents/user-login-unit-test/app/models/user.rb": [
         1,
         1,
         null,
@@ -11,16 +11,16 @@
         null,
         null
       ],
-      "/home/nghiadk/workshop/user-login-unit-test/app/models/application_record.rb": [
+      "/home/nguyen.ha.phan/Documents/user-login-unit-test/app/models/application_record.rb": [
         1,
         1,
         null
       ],
-      "/home/nghiadk/workshop/user-login-unit-test/app/helpers/application_helper.rb": [
+      "/home/nguyen.ha.phan/Documents/user-login-unit-test/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/home/nghiadk/workshop/user-login-unit-test/app/controllers/application_controller.rb": [
+      "/home/nguyen.ha.phan/Documents/user-login-unit-test/app/controllers/application_controller.rb": [
         1,
         1,
         null,
@@ -31,12 +31,12 @@
         null,
         null
       ],
-      "/home/nghiadk/workshop/user-login-unit-test/app/controllers/pages_controller.rb": [
+      "/home/nguyen.ha.phan/Documents/user-login-unit-test/app/controllers/pages_controller.rb": [
         1,
         1,
         null
       ]
     },
-    "timestamp": 1512736854
+    "timestamp": 1514261721
   }
 }
