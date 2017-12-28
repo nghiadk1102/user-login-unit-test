@@ -1,0 +1,22 @@
+<?xml version='1.0'?>
+<checkstyle>
+  <file name='app/controllers/pages_controller.rb'>
+    <error line='1' column='0' severity='info' message='Missing top-level class documentation comment.' source='com.puppycrawl.tools.checkstyle.Style/Documentation'/>
+    <error line='2' column='11' severity='info' message='Space missing after semicolon.' source='com.puppycrawl.tools.checkstyle.Style/SpaceAfterSemicolon'/>
+  </file>
+  <file name='app/controllers/application_controller.rb'>
+    <error line='1' column='0' severity='info' message='Missing top-level class documentation comment.' source='com.puppycrawl.tools.checkstyle.Style/Documentation'/>
+    <error line='6' column='30' severity='warning' message='Unused method argument - `resource_or_scope`. If it&apos;s necessary, use `_` or `_resource_or_scope` as an argument name to indicate that it won&apos;t be used. You can also write as `after_sign_out_path_for(*)` if you want the method to accept any arguments but don&apos;t care about them.' source='com.puppycrawl.tools.checkstyle.Lint/UnusedMethodArgument'/>
+    <error line='6' column='30' severity='info' message='Use def with parentheses when there are parameters.' source='com.puppycrawl.tools.checkstyle.Style/MethodDefParentheses'/>
+  </file>
+  <file name='app/helpers/application_helper.rb'>
+    <error line='1' column='0' severity='info' message='Missing top-level module documentation comment.' source='com.puppycrawl.tools.checkstyle.Style/Documentation'/>
+  </file>
+  <file name='app/models/application_record.rb'>
+    <error line='1' column='0' severity='info' message='Missing top-level class documentation comment.' source='com.puppycrawl.tools.checkstyle.Style/Documentation'/>
+  </file>
+  <file name='app/models/user.rb'>
+    <error line='1' column='0' severity='info' message='Missing top-level class documentation comment.' source='com.puppycrawl.tools.checkstyle.Style/Documentation'/>
+    <error line='5' column='21' severity='info' message='Use def with parentheses when there are parameters.' source='com.puppycrawl.tools.checkstyle.Style/MethodDefParentheses'/>
+  </file>
+</checkstyle>

@@ -28,7 +28,6 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 gem "devise"
-gem "simplecov", require: false
 gem "ffaker"
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
@@ -37,6 +36,20 @@ gem "ffaker"
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+group :test do
+  gem "brakeman", require: false
+  gem "eslint-rails", git: "https://github.com/octoberstorm/eslint-rails"
+  gem "rails-controller-testing"
+  gem "reek"
+  gem "rspec-activemodel-mocks"
+  gem "rspec-collection_matchers"
+  gem "rubocop", "0.47.1", require: false
+  gem "rails_best_practices"
+  gem "rubocop-checkstyle_formatter", require: false
+  gem "scss_lint", require: false
+  gem "scss_lint_reporter_checkstyle", require: false
+  gem 'simplecov', :require => false
+end
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
